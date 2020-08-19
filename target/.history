@@ -1,0 +1,30 @@
+sbt run
+exit
+help
+shoe libraryDependencies
+show libraryDependencies
+help
+show LibraryDependencies
+show name
+build.sbt
+sbt
+help
+settings
+show name
+show libraryDependencies
+set libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.0.2"
+show libraryDependencies
+nano build.sbt
+build.sbt
+show libraryDpendencies
+show libraryDependencies
+set libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.24.0"
+show libraryDependencies
+help
+settings
+plugins
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+plugins
+plugins.sbt
+git commit -m "commit after tome library dependencies"
+exit

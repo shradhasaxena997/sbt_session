@@ -28,3 +28,8 @@ plugins
 plugins.sbt
 git commit -m "commit after tome library dependencies"
 exit
+settings
+libraryDependencies
+set libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.24.0"
+libraryDependencies
+exit

@@ -33,3 +33,40 @@ libraryDependencies
 set libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.24.0"
 libraryDependencies
 exit
+settings
+help
+plugins
+--addPluginSbtFile=addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+--addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+--addPluginSbtFile=("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+nano plugins.sbt
+plugins.sbt
+cd plugin.sbt
+cd plugins.sbt
+--addPluginSbtFile=addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+sbt scalastyle
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
+sbt scalastyle
+sbt scalastyleGenerateConfig
+sbt
+nano plugin.sbt
+help
+--addPluginSbtFile="org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0"
+--addPluginSbtFile="org.scalastyle" %% "scalastyle-sbt-p
+--addPluginSbtFile=org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0
+show name
+plugins
+help
+--addPluginSbtFile=org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0
+help
+settings
+libraryDependencies
+libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.24.0"
+libraryDependencies
+set libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "2.24.0"
+libraryDependencies
+reload
+show name
+libraryDependencies
+exit
